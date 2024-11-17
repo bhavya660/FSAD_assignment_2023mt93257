@@ -1,0 +1,28 @@
+.exchange-request-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exchange-request-form label {
+    font-weight: bold;
+}
+
+.exchange-request-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.exchange-request-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exchange-request-form button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,44 @@
+.book-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-item h3 {
+    margin-top: 0;
+}
+
+.book-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.edit-button {
+    background-color: #2196F3;
+}
+
+.edit-button:hover {
+    background-color: #0b7dda;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.delete-button:hover {
+    background-color: #da190b;
+}

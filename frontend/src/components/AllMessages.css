@@ -1,0 +1,39 @@
+.all-messages {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.all-messages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.all-messages li {
+    margin-bottom: 15px;
+}
+
+.message-preview {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.message-preview:hover {
+    background-color: #f1f1f1;
+}
+
+.message-preview h3 {
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.message-preview p {
+    margin: 5px 0;
+    color: #666;
+}

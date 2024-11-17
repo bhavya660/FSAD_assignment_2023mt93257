@@ -1,0 +1,48 @@
+.index-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.index-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.index-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.index-logo {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.index-content p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0b7dda;
+}
